@@ -115,7 +115,7 @@ function myFunction() {
           radioElement = document.querySelector('#' + r);
   
           if (quizItem.a == i) {
-            liElement.style.backgroundColor = 'green'
+            liElement.style.backgroundColor = 'green';
           } 
   
           if (radioElement.checked) {
@@ -133,3 +133,7 @@ function myFunction() {
     displayQuiz();
   });
 
+//reloads the page when reset button is clicked
+function newDoc() {
+  window.location.assign("https://eulofia.github.io/Quiz-Application/")
+}
