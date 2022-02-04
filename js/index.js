@@ -119,7 +119,11 @@ function myFunction() {
           } 
   
           if (radioElement.checked) {
-            // code for task 1 goes here
+            if (i == quizItem.a){
+              score++;
+            } else {
+              liElement.style.backgroundColor = 'red';
+        }
           }
         }
       });
